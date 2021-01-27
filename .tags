@@ -1,0 +1,149 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$FZF_DEFAULT_COMMAND	init.vim	/^                   let $FZF_DEFAULT_COMMAND = 'ag -g ""'$/;"	v
+/	init.vim	/^	map \/  <Plug>(incsearch-forward)$/;"	m
+<	init.vim	/^	vnoremap < <gv$/;"	m
+<A-h>	init.vim	/^	nnoremap <A-h> <C-w>h$/;"	m
+<A-j>	init.vim	/^	nnoremap <A-j> <C-w>j$/;"	m
+<A-k>	init.vim	/^	nnoremap <A-k> <C-w>k$/;"	m
+<A-l>	init.vim	/^	nnoremap <A-l> <C-w>l$/;"	m
+<C-/>	init.vim	/^	nmap <C-\/> <Plug>VSCodeCommentaryLine$/;"	m
+<C-b>	init.vim	/^		nnoremap <silent> <C-b> :NERDTreeToggle<CR>$/;"	m
+<C-p>	init.vim	/^		nnoremap <C-p> :FZF<CR>$/;"	m
+<Down>	init.vim	/^	noremap <Down> <Nop>$/;"	m
+<F6>	init.vim	/^	inoremap <silent> <F6> <C-O>:set invspell<cr>$/;"	m
+<F6>	init.vim	/^	nnoremap <silent> <F6> :set invspell<cr>$/;"	m
+<Left>	init.vim	/^	noremap <Left> <Nop>$/;"	m
+<Right>	init.vim	/^	noremap <Right> <Nop>$/;"	m
+<S-Tab>	init.vim	/^	nnoremap <S-Tab> :bprevious<CR>$/;"	m
+<Tab>	init.vim	/^	nnoremap <Tab> :bnext<CR>$/;"	m
+<Up>	init.vim	/^	noremap <Up> <Nop>$/;"	m
+<c-n>	init.vim	/^	nnoremap <c-n> :call OpenTerminal()<CR>$/;"	m
+<c-z>	init.vim	/^	nnoremap <c-z> <Nop>$/;"	m
+<esc>	init.vim	/^	nnoremap <silent> <esc> :noh<cr>$/;"	m
+<leader>P	init.vim	/^	nnoremap <leader>P "+P$/;"	m
+<leader>P	init.vim	/^	vnoremap <leader>P "+P$/;"	m
+<leader>Q	init.vim	/^	nnoremap <silent> <leader>Q :Sayonara!<CR>$/;"	m
+<leader>d	init.vim	/^	nnoremap <leader>d "+d$/;"	m
+<leader>d	init.vim	/^	vnoremap <leader>d "+d$/;"	m
+<leader>e	init.vim	/^	nnoremap <leader>e :e $MYVIMRC<CR>  " Abrir el archivo init.vim con <líder> + e$/;"	m
+<leader>j	init.vim	/^	nnoremap <leader>j :bprevious<CR>$/;"	m
+<leader>l	init.vim	/^	nnoremap <leader>l :bnext<CR>$/;"	m
+<leader>p	init.vim	/^	nnoremap <leader>p "+p$/;"	m
+<leader>p	init.vim	/^	vnoremap <leader>p "+p$/;"	m
+<leader>q	init.vim	/^	nnoremap <leader>q :bdelete<CR>$/;"	m
+<leader>q	init.vim	/^	nnoremap <silent> <leader>q :Sayonara<CR>$/;"	m
+<leader>s	init.vim	/^	nnoremap <leader>s :w<CR>  " Guardar con <líder> + s$/;"	m
+<leader>y	init.vim	/^	nnoremap <leader>y "+y$/;"	m
+<leader>y	init.vim	/^	vnoremap <leader>y "+y$/;"	m
+>	init.vim	/^	vnoremap > >gv$/;"	m
+?	init.vim	/^	map ?  <Plug>(incsearch-backward)$/;"	m
+CocAutocomands	init.vim	/^		augroup CocAutocomands$/;"	a
+K	init.vim	/^	nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+OpenTerminal	init.vim	/^	function! OpenTerminal()$/;"	f
+g:NERDSpaceDelims	init.vim	/^	let g:NERDSpaceDelims = 1  " Agregar un espacio después del delimitador del comentario$/;"	v
+g:NERDTreeIgnore	init.vim	/^		let g:NERDTreeIgnore = []$/;"	v
+g:NERDTreeMinimalUI	init.vim	/^		let g:NERDTreeMinimalUI = 1$/;"	v
+g:NERDTreeShowHidden	init.vim	/^		let g:NERDTreeShowHidden = 1$/;"	v
+g:NERDTreeStatusline	init.vim	/^		let g:NERDTreeStatusline = ''$/;"	v
+g:NERDTrimTrailingWhitespace	init.vim	/^	let g:NERDTrimTrailingWhitespace = 1  " Quitar espacios al quitar comentario$/;"	v
+g:SuperTabDefaultCompletionType	init.vim	/^	let g:SuperTabDefaultCompletionType = '<c-n>'$/;"	v
+g:UltiSnipsExpandTrigger	init.vim	/^	let g:UltiSnipsExpandTrigger = '<c-j>'$/;"	v
+g:UltiSnipsJumpBackwardTrigger	init.vim	/^	let g:UltiSnipsJumpBackwardTrigger = '<c-k>'$/;"	v
+g:UltiSnipsJumpForwardTrigger	init.vim	/^	let g:UltiSnipsJumpForwardTrigger = '<c-j>'$/;"	v
+g:airline#extensions#tabline#enabled	init.vim	/^	let g:airline#extensions#tabline#enabled = 1  " Mostrar buffers abiertos (como pestañas)$/;"	v
+g:airline#extensions#tabline#fnamemod	init.vim	/^	let g:airline#extensions#tabline#fnamemod = ':t'  " Mostrar sólo el nombre del archivo$/;"	v
+g:airline_powerline_fonts	init.vim	/^	let g:airline_powerline_fonts = 1$/;"	v
+g:ale_echo_msg_error_str	init.vim	/^	let g:ale_echo_msg_error_str = 'E'$/;"	v
+g:ale_echo_msg_format	init.vim	/^	let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'$/;"	v
+g:ale_echo_msg_warning_str	init.vim	/^	let g:ale_echo_msg_warning_str = 'W'$/;"	v
+g:coc_global_extensions	init.vim	/^	let g:coc_global_extensions = [$/;"	v
+g:codedark_conservative	colors/codedark.vim	/^    let g:codedark_conservative=0$/;"	v
+g:codedark_conservative	init.vim	/^		let g:codedark_conservative = 1$/;"	v
+g:codedark_term256	colors/codedark.vim	/^    let g:codedark_term256=0$/;"	v
+g:codedark_term256	colors/codedark.vim	/^    let g:codedark_term256=1$/;"	v
+g:colors_name	colors/codedark.vim	/^let g:colors_name="codedark"$/;"	v
+g:ctrlp_custom_ignore	init.vim	/^	let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_user_command	init.vim	/^	let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']$/;"	v
+g:echodoc_enable_at_startup	init.vim	/^	let g:echodoc_enable_at_startup = 1$/;"	v
+g:fzf_action	init.vim	/^		let g:fzf_action = {$/;"	v
+g:fzf_commands_expect	init.vim	/^		let g:fzf_commands_expect = 'alt-enter'$/;"	v
+g:fzf_history_dir	init.vim	/^		let g:fzf_history_dir = '~\/.local\/share\/fzf-history'$/;"	v
+g:gutentags_ctags_tagfile	init.vim	/^	let g:gutentags_ctags_tagfile = '.tags'$/;"	v
+g:incsearch#auto_nohlsearch	init.vim	/^	let g:incsearch#auto_nohlsearch = 1$/;"	v
+g:indentLine_bufNameExclude	init.vim	/^	let g:indentLine_bufNameExclude = ['NERD_tree.*', 'term:.*']$/;"	v
+g:indentLine_fileTypeExclude	init.vim	/^	let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']$/;"	v
+g:mapleader	init.vim	/^	let g:mapleader = ' '  " Definir espacio como la tecla líder$/;"	v
+g:markdown_fenced_languages	init.vim	/^	let g:markdown_fenced_languages = ['bash=sh', 'javascript', 'js=javascript', 'json=javascript', 'typescript', 'ts=typescript', 'php', 'html', 'css']$/;"	v
+hi	colors/codedark.vim	/^fun! <sid>hi(group, fg, bg, attr, sp)$/;"	f
+jk	init.vim	/^	inoremap jk <Esc>$/;"	m
+q	init.vim	/^	nnoremap q <Nop>$/;"	m
+s:cdBack	colors/codedark.vim	/^let s:cdBack = {'gui': '#1E1E1E', 'cterm': s:cterm00, 'cterm256': '234'}$/;"	v
+s:cdBlue	colors/codedark.vim	/^let s:cdBlue = {'gui': '#569CD6', 'cterm': s:cterm0D, 'cterm256': '75'}$/;"	v
+s:cdBlueGreen	colors/codedark.vim	/^let s:cdBlueGreen = {'gui': '#4EC9B0', 'cterm': s:cterm0F, 'cterm256': '43'}$/;"	v
+s:cdCursorDark	colors/codedark.vim	/^let s:cdCursorDark = {'gui': '#51504F', 'cterm': s:cterm03, 'cterm256': '239'}$/;"	v
+s:cdCursorDarkDark	colors/codedark.vim	/^let s:cdCursorDarkDark = {'gui': '#222222', 'cterm': s:cterm01, 'cterm256': '235'}$/;"	v
+s:cdCursorLight	colors/codedark.vim	/^let s:cdCursorLight = {'gui': '#AEAFAD', 'cterm': s:cterm04, 'cterm256': '145'}$/;"	v
+s:cdDarkBlue	colors/codedark.vim	/^let s:cdDarkBlue = {'gui': '#223E55', 'cterm': s:cterm0D, 'cterm256': '73'}$/;"	v
+s:cdDiffGreenDark	colors/codedark.vim	/^let s:cdDiffGreenDark = {'gui': '#373D29', 'cterm': s:cterm0B, 'cterm256': '237'}$/;"	v
+s:cdDiffGreenLight	colors/codedark.vim	/^let s:cdDiffGreenLight = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}$/;"	v
+s:cdDiffRedDark	colors/codedark.vim	/^let s:cdDiffRedDark = {'gui': '#4B1818', 'cterm': s:cterm08, 'cterm256': '52'}$/;"	v
+s:cdDiffRedLight	colors/codedark.vim	/^let s:cdDiffRedLight = {'gui': '#6F1313', 'cterm': s:cterm08, 'cterm256': '52'}$/;"	v
+s:cdDiffRedLightLight	colors/codedark.vim	/^let s:cdDiffRedLightLight = {'gui': '#FB0101', 'cterm': s:cterm08, 'cterm256': '09'}$/;"	v
+s:cdFront	colors/codedark.vim	/^let s:cdFront = {'gui': '#D4D4D4', 'cterm': s:cterm05, 'cterm256': '188'}$/;"	v
+s:cdGray	colors/codedark.vim	/^let s:cdGray = {'gui': '#808080', 'cterm': s:cterm04, 'cterm256': '08'}$/;"	v
+s:cdGreen	colors/codedark.vim	/^let s:cdGreen = {'gui': '#6A9955', 'cterm': s:cterm0B, 'cterm256': '65'}$/;"	v
+s:cdLeftDark	colors/codedark.vim	/^let s:cdLeftDark = {'gui': '#252526', 'cterm': s:cterm01, 'cterm256': '235'}$/;"	v
+s:cdLeftLight	colors/codedark.vim	/^let s:cdLeftLight = {'gui': '#3F3F46', 'cterm': s:cterm03, 'cterm256': '238'}$/;"	v
+s:cdLeftMid	colors/codedark.vim	/^let s:cdLeftMid = {'gui': '#373737', 'cterm': s:cterm03, 'cterm256': '237'}$/;"	v
+s:cdLightBlue	colors/codedark.vim	/^let s:cdLightBlue = {'gui': '#9CDCFE', 'cterm': s:cterm0C, 'cterm256': '117'}$/;"	v
+s:cdLightGreen	colors/codedark.vim	/^let s:cdLightGreen = {'gui': '#B5CEA8', 'cterm': s:cterm09, 'cterm256': '151'}$/;"	v
+s:cdLightRed	colors/codedark.vim	/^let s:cdLightRed = {'gui': '#D16969', 'cterm': s:cterm08, 'cterm256': '167'}$/;"	v
+s:cdLineNumber	colors/codedark.vim	/^let s:cdLineNumber = {'gui': '#5A5A5A', 'cterm': s:cterm04, 'cterm256': '240'}$/;"	v
+s:cdNone	colors/codedark.vim	/^let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}$/;"	v
+s:cdOrange	colors/codedark.vim	/^let s:cdOrange = {'gui': '#CE9178', 'cterm': s:cterm0F, 'cterm256': '173'}$/;"	v
+s:cdPink	colors/codedark.vim	/^let s:cdPink = {'gui': '#C586C0', 'cterm': s:cterm0E, 'cterm256': '176'}$/;"	v
+s:cdPopupBack	colors/codedark.vim	/^let s:cdPopupBack = {'gui': '#2D2D30', 'cterm': s:cterm01, 'cterm256': '236'}$/;"	v
+s:cdPopupFront	colors/codedark.vim	/^let s:cdPopupFront = {'gui': '#BBBBBB', 'cterm': s:cterm06, 'cterm256': '250'}$/;"	v
+s:cdPopupHighlightBlue	colors/codedark.vim	/^let s:cdPopupHighlightBlue = {'gui': '#073655', 'cterm': s:cterm0D, 'cterm256': '24'}$/;"	v
+s:cdPopupHighlightGray	colors/codedark.vim	/^let s:cdPopupHighlightGray = {'gui': '#3D3D40', 'cterm': s:cterm03, 'cterm256': '237'}$/;"	v
+s:cdRed	colors/codedark.vim	/^let s:cdRed = {'gui': '#F44747', 'cterm': s:cterm08, 'cterm256': '203'}$/;"	v
+s:cdSearch	colors/codedark.vim	/^let s:cdSearch = {'gui': '#264F78', 'cterm': s:cterm03, 'cterm256': '24'}$/;"	v
+s:cdSearchCurrent	colors/codedark.vim	/^let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'} $/;"	v
+s:cdSelection	colors/codedark.vim	/^let s:cdSelection = {'gui': '#264F78', 'cterm': s:cterm03, 'cterm256': '24'}$/;"	v
+s:cdSplitDark	colors/codedark.vim	/^let s:cdSplitDark = {'gui': '#444444', 'cterm': s:cterm03, 'cterm256': '238'}$/;"	v
+s:cdSplitLight	colors/codedark.vim	/^let s:cdSplitLight = {'gui': '#898989', 'cterm': s:cterm04, 'cterm256': '245'}$/;"	v
+s:cdSplitThumb	colors/codedark.vim	/^let s:cdSplitThumb = {'gui': '#424242', 'cterm': s:cterm04, 'cterm256': '238'}$/;"	v
+s:cdTabCurrent	colors/codedark.vim	/^let s:cdTabCurrent = {'gui': '#1E1E1E', 'cterm': s:cterm00, 'cterm256': '234'}$/;"	v
+s:cdTabOther	colors/codedark.vim	/^let s:cdTabOther = {'gui': '#2D2D2D', 'cterm': s:cterm01, 'cterm256': '236'}$/;"	v
+s:cdTabOutside	colors/codedark.vim	/^let s:cdTabOutside = {'gui': '#252526', 'cterm': s:cterm01, 'cterm256': '235'}$/;"	v
+s:cdViolet	colors/codedark.vim	/^let s:cdViolet = {'gui': '#646695', 'cterm': s:cterm04, 'cterm256': '60'}$/;"	v
+s:cdYellow	colors/codedark.vim	/^let s:cdYellow = {'gui': '#DCDCAA', 'cterm': s:cterm0A, 'cterm256': '187'}$/;"	v
+s:cdYellowOrange	colors/codedark.vim	/^let s:cdYellowOrange = {'gui': '#D7BA7D', 'cterm': s:cterm0A, 'cterm256': '179'}$/;"	v
+s:cterm00	colors/codedark.vim	/^let s:cterm00 = "00"$/;"	v
+s:cterm01	colors/codedark.vim	/^  let s:cterm01 = "00"$/;"	v
+s:cterm01	colors/codedark.vim	/^  let s:cterm01 = "18"$/;"	v
+s:cterm02	colors/codedark.vim	/^  let s:cterm02 = "08"$/;"	v
+s:cterm02	colors/codedark.vim	/^  let s:cterm02 = "19"$/;"	v
+s:cterm03	colors/codedark.vim	/^let s:cterm03 = "08"$/;"	v
+s:cterm04	colors/codedark.vim	/^  let s:cterm04 = "07"$/;"	v
+s:cterm04	colors/codedark.vim	/^  let s:cterm04 = "20"$/;"	v
+s:cterm05	colors/codedark.vim	/^let s:cterm05 = "07"$/;"	v
+s:cterm06	colors/codedark.vim	/^  let s:cterm06 = "07"$/;"	v
+s:cterm06	colors/codedark.vim	/^  let s:cterm06 = "21"$/;"	v
+s:cterm07	colors/codedark.vim	/^let s:cterm07 = "15"$/;"	v
+s:cterm08	colors/codedark.vim	/^let s:cterm08 = "01"$/;"	v
+s:cterm09	colors/codedark.vim	/^  let s:cterm09 = "06"$/;"	v
+s:cterm09	colors/codedark.vim	/^  let s:cterm09 = "16"$/;"	v
+s:cterm0A	colors/codedark.vim	/^let s:cterm0A = "03"$/;"	v
+s:cterm0B	colors/codedark.vim	/^let s:cterm0B = "02"$/;"	v
+s:cterm0C	colors/codedark.vim	/^let s:cterm0C = "06"$/;"	v
+s:cterm0D	colors/codedark.vim	/^let s:cterm0D = "04"$/;"	v
+s:cterm0E	colors/codedark.vim	/^let s:cterm0E = "05"$/;"	v
+s:cterm0F	colors/codedark.vim	/^  let s:cterm0F = "03"$/;"	v
+s:cterm0F	colors/codedark.vim	/^  let s:cterm0F = "17"$/;"	v
+show_documentation	init.vim	/^			function! s:show_documentation()$/;"	f
